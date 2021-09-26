@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-  <title> tamplate Maji </title>
+  <title> <?php substr($page, 0, 4) ?> </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
