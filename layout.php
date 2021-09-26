@@ -12,11 +12,17 @@
 
 <body>
 
-<?php include 'menu.php';
+<?php 
+
+include 'menu.php';
 
 include 'views/' . $page;
 
-include 'footer.php';
+?>
+
+</body>
+<footer>By Progfacil</footer>
+</html>
 
 
 

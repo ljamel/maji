@@ -6,6 +6,7 @@ function includeFiles($excludeFiles, $val1='', $val2='', $val3='', $val4=''){
         $files = array_diff($files, $excludeFiles);
 
         foreach($files as $file){
-            echo $val1 . $val2 . $file . $val3 . $file . $val4;
+            $fileName = substr($file, 0, -4);
+            echo $val1 . $val2 . $file . $val3 . $fileName . $val4;
         }
 }
