@@ -1,3 +1,23 @@
 body {
     margin:0px;
 }
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    padding: 30px;
+
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+li a {
+    font-size: 20px;
+    color: black;
+}
